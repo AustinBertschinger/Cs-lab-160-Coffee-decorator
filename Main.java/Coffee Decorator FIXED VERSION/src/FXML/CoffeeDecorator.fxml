@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="decoratorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d99365" height="600.0" stroke="BLACK" strokeType="INSIDE" width="450.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d1d1d1" height="550.0" layoutX="25.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <Label fx:id="Label" alignment="CENTER" contentDisplay="CENTER" layoutX="57.0" layoutY="61.0" prefHeight="74.0" prefWidth="335.0" text="Fake Coffee Shop Name" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Label>
+      <ToggleButton fx:id="BlackCoffee" layoutX="60.0" layoutY="163.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="140.0" selected="true" text="Black Coffee">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="Beans" />
+         </toggleGroup></ToggleButton>
+      <ToggleButton fx:id="Espresso" layoutX="251.0" layoutY="163.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="140.0" text="Espresso" toggleGroup="$Beans">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="HotWater" layoutX="67.0" layoutY="250.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Hot Water">
+         <font>
+         <Font name="Comic Sans MS" size="12.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="WhippedCream" layoutX="258.0" layoutY="250.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Whipped Cream">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="Milk" layoutX="67.0" layoutY="310.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Milk">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="Sugar" layoutX="258.0" layoutY="310.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Sugar">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="Caramel" layoutX="36.0" layoutY="387.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Caramel">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="Mocha" layoutX="288.0" layoutY="387.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Mocha">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></ToggleButton>
+      <ToggleButton fx:id="Vanilla" layoutX="162.0" layoutY="446.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="125.0" text="Vanilla">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></ToggleButton>
+      <Label alignment="CENTER" layoutX="169.0" layoutY="123.0" prefHeight="23.0" prefWidth="110.0" text="Coffee Types">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="nextPage" layoutX="178.0" layoutY="508.0" mnemonicParsing="false" onAction="#finalizeDecorator" prefHeight="46.0" prefWidth="93.0" text="Add to Order">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="198.0" layoutY="398.0" text="Flavors">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="182.0" layoutY="225.0" text="Decorators">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

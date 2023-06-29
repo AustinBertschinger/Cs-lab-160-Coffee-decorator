@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="cartPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d99365" height="600.0" stroke="BLACK" strokeType="INSIDE" width="450.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d1d1d1" height="550.0" layoutX="25.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <Label fx:id="Label" alignment="CENTER" contentDisplay="CENTER" layoutX="57.0" layoutY="61.0" prefHeight="74.0" prefWidth="335.0" text="Fake Coffee Shop Name" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Label>
+      <Label layoutX="140.0" layoutY="124.0" text="Thank you for your order!">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="75.0" layoutY="250.0" prefWidth="300.0" text="Pay for and pick up your order at the counter." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
